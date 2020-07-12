@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Page11</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="assets/css/Pretty-Registration-Form.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md" style="background-color: #d5ae49;">
+        <div class="container-fluid"><a class="navbar-brand" href="#" style="font-family: Ubuntu, sans-serif;">RADY Admin panel</a></div>
+    </nav>
+    <section>
+        <div>
+            <h1 class="text-center" style="font-family: Montserrat, sans-serif;">Doctor/Helper Registration Page</h1>
+        </div>
+        <div class="text-center" style="margin-top: 20px;">
+            <div class="btn-group" role="group"><button class="btn btn-primary" type="button" onclick="myFunction1()">Doctor</button><button class="btn btn-primary" type="button" onclick="myFunction2()">Helper&nbsp;</button></div>
+        </div>
+        <form id="form">
+            <div class="form-row" style="margin-top: 15px;">
+                <div class="col text-right">
+                    <p class="text-center d-inline-block" style="margin-right: 135px;margin-top: 5px;font-size: 20px;">Full Name</p>
+                </div>
+                <div class="col text-center"><input class="form-control" type="text" style="width: 50%;"></div>
+            </div>
+            <div class="form-row" style="margin-top: 15px;">
+                <div class="col text-right">
+                    <p class="text-center d-inline-block" style="margin-right: 135px;margin-top: 5px;font-size: 20px;">Date of Birth</p>
+                </div>
+                <div class="col text-center"><input class="form-control" type="date" style="width: 50%;"></div>
+            </div>
+            <div class="form-row" style="margin-top: 15px;">
+                <div class="col text-right">
+                    <p class="text-center d-inline-block" style="margin-right: 135px;margin-top: 5px;font-size: 20px;">Gender</p>
+                </div>
+                <div class="col text-left">
+                    <div class="dropdown"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Gender&nbsp;</button>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">&nbsp;Male</a><a class="dropdown-item" role="presentation" href="#">Female</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row" style="margin-top: 15px;">
+                <div class="col text-right">
+                    <p class="text-center d-inline-block" style="margin-right: 135px;margin-top: 5px;font-size: 20px;">Phone Number</p>
+                </div>
+                <div class="col text-center"><input class="form-control" type="tel" style="width: 50%;"></div>
+            </div>
+            <div class="form-row" style="margin-top: 15px;">
+                <div class="col text-right">
+                    <p class="text-center d-inline-block" style="margin-right: 135px;margin-top: 5px;font-size: 20px;">Address</p>
+                </div>
+                <div class="col text-center"><input class="form-control" type="text" style="width: 50%;"></div>
+            </div>
+            <div class="form-row" style="margin-top: 15px;">
+                <div class="col text-right">
+                    <p class="text-center d-inline-block" style="margin-right: 135px;margin-top: 5px;font-size: 20px;">Role</p>
+                </div>
+                <div class="col text-center"><input class="form-control" type="text" style="width: 50%;"></div>
+            </div>
+            <div class="form-row" style="margin-top: 15px;">
+                <div class="col text-right">
+                    <p class="text-center d-inline-block" style="margin-right: 135px;margin-top: 5px;font-size: 20px;">E-mail</p>
+                </div>
+                <div class="col text-center"><input class="form-control" type="email" style="width: 50%;"></div>
+            </div>
+            <div class="form-row" style="margin-top: 15px;">
+                <div class="col text-right">
+                    <p class="text-center d-inline-block" style="margin-right: 135px;margin-top: 5px;font-size: 20px;">Password</p>
+                </div>
+                <div class="col text-center"><input class="form-control" type="password" style="width: 50%;"></div>
+            </div>
+            <div class="form-row" id="specialrow" style="margin-top: 15px;">
+                <div class="col text-right">
+                    <p class="text-center d-inline-block" style="margin-right: 135px;margin-top: 5px;font-size: 20px;">Specialization</p>
+                </div>
+                <div class="col text-center"><input class="form-control" type="text" id="special" style="width: 50%;"></div>
+            </div>
+            <div class="form-row" id="idproofrow" style="margin-top: 15px;">
+                <div class="col text-right">
+                    <p class="text-center d-inline-block" style="margin-right: 135px;margin-top: 5px;font-size: 20px;">ID proof</p>
+                </div>
+                <div class="col text-center"><input class="form-control" type="text" id="idproof" style="width: 50%;"></div>
+            </div>
+            <div class="form-row" id="shiftrow" style="margin-top: 15px;">
+                <div class="col text-right">
+                    <p class="text-center d-inline-block" style="margin-right: 135px;margin-top: 5px;font-size: 20px;">Shifts</p>
+                </div>
+                <div class="col text-center"><input class="form-control" type="text" id="shifts" style="width: 50%;"></div>
+            </div>
+        </form>
+        <div class="text-center" id="submitbutton" style="margin-top: 20px;"><button class="btn btn-primary" type="button">Submit</button></div>
+    </section>
+    <div class="footer-2" style="margin-top: 25%;background-color: #000000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 col-sm-6 col-md-6">
+                    <p class="text-left" style="margin-top: 5%;margin-bottom: 3%;color: rgb(255,255,255);">© 2020 RADY</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <p class="text-right" style="margin-top:5%;margin-bottom:8%%;font-size:1em;"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
