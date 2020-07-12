@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Page4</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Adamina">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Advent+Pro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md" style="background-color: #d5ae49;">
+        <div class="container-fluid"><a class="navbar-brand" href="#" style="font-family: Ubuntu, sans-serif;">RADY Admin panel</a></div>
+    </nav>
+    <section></section>
+    <div>
+        <ul class="nav nav-tabs">
+            <li class="nav-item" style="margin-left: 40%;font-family: Ubuntu, sans-serif;"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-1">Admission</a></li>
+            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-2" style="font-family: Ubuntu, sans-serif;color: rgb(0,3,7);">Consultation</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" role="tabpanel" id="tab-1">
+                <section>
+                    <div class="patient-list-div" style="margin-right: 10px;margin-left: 10px;">
+                        <h3 class="text-center" id="patient-border-heading">Patient List</h3>
+                        <div class="patient-list-div2" style="background-color: #e7e2e2;width: 65%;margin-left: 15%;">
+                            <div class="d-inline-block" style="margin-left: 10%;margin-top: 5px;">
+                                <p class="d-inline-block" style="margin-left: 20%;font-size: 20px;font-family: Adamina, serif;width: 179px;">Divyam Agarwal</p>
+                                <p style="margin-left: 37px;margin-top: -20px;">Dr. Avish Agarwal</p>
+                            </div><button class="btn btn-primary d-inline-block" type="button" style="margin-left: 25%;margin-right: 20px;margin-top: -25px;" data-toggle="modal" data-target="#modal1">View Details</button><button class="btn btn-primary d-inline-block"
+                                type="button" style="background-color: rgb(51,198,26);margin-top: -25px;" data-toggle="modal" data-target="#modal1-1">Confirm</button></div>
+                        <div class="patient-list-div2" style="background-color: #e7e2e2;width: 65%;margin-left: 15%;margin-top: 15px;">
+                            <div class="d-inline-block" style="margin-left: 10%;margin-top: 5px;">
+                                <p class="d-inline-block" style="margin-left: 20%;font-size: 20px;font-family: Adamina, serif;width: 179px;">Rishabh Singh</p>
+                                <p style="margin-left: 37px;margin-top: -20px;">Dr. Paritosh </p>
+                            </div><button class="btn btn-primary d-inline-block" type="button" style="margin-left: 25%;margin-right: 20px;margin-top: -25px;" data-toggle="modal" data-target="#modal2">View Details</button><button class="btn btn-primary d-inline-block"
+                                type="button" style="background-color: rgb(51,198,26);margin-top: -25px;" data-toggle="modal" data-target="#modal2-1">Confirm</button></div>
+                        <div class="patient-list-div2" style="background-color: #e7e2e2;width: 65%;margin-left: 15%;margin-top: 15px;">
+                            <div class="d-inline-block" style="margin-left: 10%;margin-top: 5px;">
+                                <p class="d-inline-block" style="margin-left: 20%;font-size: 20px;font-family: Adamina, serif;width: 179px;">Ayush Sharma</p>
+                                <p style="margin-left: 37px;margin-top: -20px;">Dr. Utkarsh Kere
+                                </p>
+                            </div><button class="btn btn-primary d-inline-block" type="button" style="margin-left: 25%;margin-right: 20px;margin-top: -25px;" data-toggle="modal" data-target="#modal3">View Details</button><button class="btn btn-primary d-inline-block"
+                                type="button" style="background-color: rgb(51,198,26);margin-top: -25px;" data-toggle="modal" data-target="#modal3-1">Confirm</button></div>
+                    </div>
+                    <div style="margin-top: 15px;">
+                        <h3 class="text-center" id="patient-border-heading-1">Availabilty of Doctors</h3>
+                        <div class="doctor-availability" style="margin-right: 15%;margin-left: 15%;background-color: #ead2ee;">
+                            <p class="d-inline-block" style="font-size: 25px;margin-left: 15%;">Dr. Avish Agarwal</p>
+                            <p class="d-inline-block flash animated infinite" style="margin-left: 35px;font-size: 20px;color: rgb(52,207,13);">Available</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;color: rgb(5,12,20);">From</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;">15:30</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;">To</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;">17:30</p>
+                        </div>
+                        <div class="doctor-availability" style="margin-right: 15%;margin-left: 15%;background-color: #ead2ee;margin-top: 15px;">
+                            <p class="d-inline-block" style="font-size: 25px;margin-left: 15%;">Dr. Paritosh </p>
+                            <p class="d-inline-block flash animated infinite" style="margin-left: 35px;font-size: 20px;color: rgb(52,207,13);">Available</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;color: rgb(5,12,20);">From</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;">15:30</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;">To</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;">17:30</p>
+                        </div>
+                        <div class="doctor-availability" style="margin-right: 15%;margin-left: 15%;background-color: #ead2ee;margin-top: 15px;">
+                            <p class="d-inline-block" style="font-size: 25px;margin-left: 15%;">Dr. Utkarsh Kere
+                            </p>
+                            <p class="d-inline-block flash animated infinite" style="margin-left: 35px;font-size: 20px;color: rgb(207,13,25);">Unavailable</p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 15px;">
+                        <h3 class="text-center" id="patient-border-heading-1">Availabilty of Helpers</h3>
+                        <div class="doctor-availability" style="margin-right: 45%;margin-left: 25%;background-color: #da9be4;margin-top: 40px;">
+                            <p class="d-inline-block" style="font-size: 25px;margin-left: 15%;">Helper 1</p>
+                            <p class="d-inline-block" style="margin-left: 35px;font-size: 20px;">Available</p><input type="radio" style="margin-left: 15px;"></div>
+                        <div class="doctor-availability" style="margin-right: 45%;margin-left: 25%;background-color: #da9be4;margin-top: 15px;">
+                            <p class="d-inline-block" style="font-size: 25px;margin-left: 15%;">Helper 2</p>
+                            <p class="d-inline-block" style="margin-left: 35px;font-size: 20px;">Available</p><input type="radio" style="margin-left: 15px;"></div>
+                        <div class="doctor-availability" style="margin-right: 45%;margin-left: 25%;background-color: #da9be4;margin-top: 15px;">
+                            <p class="d-inline-block" style="font-size: 25px;margin-left: 15%;">Helper 3</p>
+                            <p class="d-inline-block" style="margin-left: 35px;font-size: 20px;">Available</p><input type="radio" style="margin-left: 15px;"></div>
+                    </div>
+                </section>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="tab-2">
+                <section>
+                    <div class="patient-list-div" style="margin-right: 10px;margin-left: 10px;">
+                        <h3 class="text-center" id="patient-border-heading">Patient List</h3>
+                        <div class="patient-list-div2" style="background-color: #e7e2e2;width: 65%;margin-left: 15%;">
+                            <div class="d-inline-block" style="margin-left: 10%;margin-top: 5px;">
+                                <p class="d-inline-block" style="margin-left: 20%;font-size: 20px;font-family: Adamina, serif;width: 179px;">Divyam Agarwal</p>
+                                <p style="margin-left: 37px;margin-top: -20px;">Dr. Avish Agarwal</p>
+                            </div><button class="btn btn-primary d-inline-block" type="button" style="margin-left: 25%;margin-right: 20px;margin-top: -25px;" data-toggle="modal" data-target="#modal1">View Details</button><button class="btn btn-primary d-inline-block"
+                                type="button" style="background-color: rgb(51,198,26);margin-top: -25px;" data-toggle="modal" data-target="#modal1-1">Confirm</button></div>
+                        <div class="patient-list-div2" style="background-color: #e7e2e2;width: 65%;margin-left: 15%;margin-top: 15px;">
+                            <div class="d-inline-block" style="margin-left: 10%;margin-top: 5px;">
+                                <p class="d-inline-block" style="margin-left: 20%;font-size: 20px;font-family: Adamina, serif;width: 179px;">Rishabh Singh</p>
+                                <p style="margin-left: 37px;margin-top: -20px;">Dr. Paritosh </p>
+                            </div><button class="btn btn-primary d-inline-block" type="button" style="margin-left: 25%;margin-right: 20px;margin-top: -25px;" data-toggle="modal" data-target="#modal2">View Details</button><button class="btn btn-primary d-inline-block"
+                                type="button" style="background-color: rgb(51,198,26);margin-top: -25px;" data-toggle="modal" data-target="#modal2-1">Confirm</button></div>
+                        <div class="patient-list-div2" style="background-color: #e7e2e2;width: 65%;margin-left: 15%;margin-top: 15px;">
+                            <div class="d-inline-block" style="margin-left: 10%;margin-top: 5px;">
+                                <p class="d-inline-block" style="margin-left: 20%;font-size: 20px;font-family: Adamina, serif;width: 179px;">Ayush Sharma</p>
+                                <p style="margin-left: 37px;margin-top: -20px;">Dr. Utkarsh Kere
+                                </p>
+                            </div><button class="btn btn-primary d-inline-block" type="button" style="margin-left: 25%;margin-right: 20px;margin-top: -25px;" data-toggle="modal" data-target="#modal3">View Details</button><button class="btn btn-primary d-inline-block"
+                                type="button" style="background-color: rgb(51,198,26);margin-top: -25px;" data-toggle="modal" data-target="#modal3-1">Confirm</button></div>
+                    </div>
+                    <div style="margin-top: 15px;">
+                        <h3 class="text-center" id="patient-border-heading-1">Availabilty of Doctors</h3>
+                        <div class="doctor-availability" style="margin-right: 15%;margin-left: 15%;background-color: #ead2ee;">
+                            <p class="d-inline-block" style="font-size: 25px;margin-left: 15%;">Dr. Avish Agarwal</p>
+                            <p class="d-inline-block flash animated infinite" style="margin-left: 35px;font-size: 20px;color: rgb(52,207,13);">Available</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;color: rgb(5,12,20);">From</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;">15:30</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;">To</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;">17:30</p>
+                        </div>
+                        <div class="doctor-availability" style="margin-right: 15%;margin-left: 15%;background-color: #ead2ee;margin-top: 15px;">
+                            <p class="d-inline-block" style="font-size: 25px;margin-left: 15%;">Dr. Paritosh </p>
+                            <p class="d-inline-block flash animated infinite" style="margin-left: 35px;font-size: 20px;color: rgb(52,207,13);">Available</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;color: rgb(5,12,20);">From</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;">15:30</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;">To</p>
+                            <p class="d-inline-block" style="margin-left: 15px;font-size: 20px;">17:30</p>
+                        </div>
+                        <div class="doctor-availability" style="margin-right: 15%;margin-left: 15%;background-color: #ead2ee;margin-top: 15px;">
+                            <p class="d-inline-block" style="font-size: 25px;margin-left: 15%;">Dr. Utkarsh Kere
+                            </p>
+                            <p class="d-inline-block flash animated infinite" style="margin-left: 35px;font-size: 20px;color: rgb(207,13,25);">Unavailable</p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 15px;">
+                        <h3 class="text-center" id="patient-border-heading-1">Availabilty of Nurses</h3>
+                        <div class="doctor-availability" style="margin-right: 45%;margin-left: 25%;background-color: #da9be4;margin-top: 40px;">
+                            <p class="d-inline-block" style="font-size: 25px;margin-left: 15%;">Nurse 1</p>
+                            <p class="d-inline-block" style="margin-left: 35px;font-size: 20px;">Available</p><input type="radio" style="margin-left: 15px;"></div>
+                        <div class="doctor-availability" style="margin-right: 45%;margin-left: 25%;background-color: #da9be4;margin-top: 15px;">
+                            <p class="d-inline-block" style="font-size: 25px;margin-left: 15%;">Nurse 2</p>
+                            <p class="d-inline-block" style="margin-left: 35px;font-size: 20px;">Available</p><input type="radio" style="margin-left: 15px;"></div>
+                        <div class="doctor-availability" style="margin-right: 45%;margin-left: 25%;background-color: #da9be4;margin-top: 15px;">
+                            <p class="d-inline-block" style="font-size: 25px;margin-left: 15%;">Nurse 3</p>
+                            <p class="d-inline-block" style="margin-left: 35px;font-size: 20px;">Available</p><input type="radio" style="margin-left: 15px;"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Details of the patient</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <p>Name: Divyam Agarwal</p>
+                        <p>Time: 15:35</p>
+                        <p>Gender: Male</p>
+                        <p>Age : 18</p>
+                        <p>UHID: 123456789</p>
+                        <p>Previous Appointment: 1st July 12:47</p>
+                        <p>General Comments: He is a good boy.</p>
+                        <p>Medical Records: Perfectly Fit</p>
+                        <p>Prescription:&nbsp; None</p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-primary" type="button">Ok</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal2">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Details of the patient</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <p>Name: Divyam Agarwal</p>
+                        <p>Time: 15:35</p>
+                        <p>Gender: Male</p>
+                        <p>Age : 18</p>
+                        <p>UHID: 123456789</p>
+                        <p>Previous Appointment: 1st July 12:47</p>
+                        <p>General Comments: He is a good boy.</p>
+                        <p>Medical Records: Perfectly Fit</p>
+                        <p>Prescription:&nbsp; None</p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-primary" type="button">Ok</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal3">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Details of the patient</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <p>Name: Divyam Agarwal</p>
+                        <p>Time: 15:35</p>
+                        <p>Gender: Male</p>
+                        <p>Age : 18</p>
+                        <p>UHID: 123456789</p>
+                        <p>Previous Appointment: 1st July 12:47</p>
+                        <p>General Comments: He is a good boy.</p>
+                        <p>Medical Records: Perfectly Fit</p>
+                        <p>Prescription:&nbsp; None</p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-primary" type="button">Ok</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal1-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Doctor Assignment</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <div>
+                            <p class="d-inline-block">Department&nbsp;</p>
+                            <div class="dropdown d-inline-block"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-left: 25px;color: rgb(1,1,1);background-color: rgb(255,255,255);">&nbsp;</button>
+                                <div class="dropdown-menu"
+                                    role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="d-inline-block">Date</p><input class="d-inline-block" type="date" style="margin-left: 79px;"></div>
+                        <div>
+                            <p class="d-inline-block">Doctor Assigned</p>
+                            <div class="dropdown d-inline-block"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-left: 15px;color: rgb(0,0,0);background-color: rgb(255,255,255);">&nbsp;</button>
+                                <div class="dropdown-menu"
+                                    role="menu"><a class="dropdown-item" role="presentation" href="#">Dr. Avish Agarwal</a><a class="dropdown-item" role="presentation" href="#">Dr. Paritosh </a><a class="dropdown-item" role="presentation" href="#">Dr. Utkarsh Kere
+                                        
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 5px;">
+                            <p class="d-inline-block">Room No</p><input type="text" style="margin-left: 55px;"></div>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal2-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Doctor Assignment</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <div>
+                            <p class="d-inline-block">Department&nbsp;</p>
+                            <div class="dropdown d-inline-block"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-left: 25px;color: rgb(1,1,1);background-color: rgb(255,255,255);">&nbsp;</button>
+                                <div class="dropdown-menu"
+                                    role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="d-inline-block">Date</p><input class="d-inline-block" type="date" style="margin-left: 79px;"></div>
+                        <div>
+                            <p class="d-inline-block">Doctor Assigned</p>
+                            <div class="dropdown d-inline-block"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-left: 15px;color: rgb(0,0,0);background-color: rgb(255,255,255);">&nbsp;</button>
+                                <div class="dropdown-menu"
+                                    role="menu"><a class="dropdown-item" role="presentation" href="#">Dr. Avish Agarwal</a><a class="dropdown-item" role="presentation" href="#">Dr. Paritosh </a><a class="dropdown-item" role="presentation" href="#">Dr. Utkarsh Kere
+                                        
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 5px;">
+                            <p class="d-inline-block">Room No</p><input type="text" style="margin-left: 55px;"></div>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal3-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Doctor Assignment</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <div>
+                            <p class="d-inline-block">Department&nbsp;</p>
+                            <div class="dropdown d-inline-block"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-left: 25px;color: rgb(1,1,1);background-color: rgb(255,255,255);">&nbsp;</button>
+                                <div class="dropdown-menu"
+                                    role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="d-inline-block">Date</p><input class="d-inline-block" type="date" style="margin-left: 79px;"></div>
+                        <div>
+                            <p class="d-inline-block">Doctor Assigned</p>
+                            <div class="dropdown d-inline-block"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-left: 15px;color: rgb(0,0,0);background-color: rgb(255,255,255);">&nbsp;</button>
+                                <div class="dropdown-menu"
+                                    role="menu"><a class="dropdown-item" role="presentation" href="#">Dr. Avish Agarwal</a><a class="dropdown-item" role="presentation" href="#">Dr. Paritosh </a><a class="dropdown-item" role="presentation" href="#">Dr. Utkarsh Kere
+                                        
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 5px;">
+                            <p class="d-inline-block">Room No</p><input type="text" style="margin-left: 55px;"></div>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Details of the patient</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <p>Name: Divyam Agarwal</p>
+                        <p>Time: 15:35</p>
+                        <p>Gender: Male</p>
+                        <p>Age : 18</p>
+                        <p>UHID: 123456789</p>
+                        <p>Previous Appointment: 1st July 12:47</p>
+                        <p>General Comments: He is a good boy.</p>
+                        <p>Medical Records: Perfectly Fit</p>
+                        <p>Prescription:&nbsp; None</p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-primary" type="button">Ok</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal-2">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Details of the patient</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <p>Name: Divyam Agarwal</p>
+                        <p>Time: 15:35</p>
+                        <p>Gender: Male</p>
+                        <p>Age : 18</p>
+                        <p>UHID: 123456789</p>
+                        <p>Previous Appointment: 1st July 12:47</p>
+                        <p>General Comments: He is a good boy.</p>
+                        <p>Medical Records: Perfectly Fit</p>
+                        <p>Prescription:&nbsp; None</p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-primary" type="button">Ok</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal-3">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Details of the patient</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <p>Name: Divyam Agarwal</p>
+                        <p>Time: 15:35</p>
+                        <p>Gender: Male</p>
+                        <p>Age : 18</p>
+                        <p>UHID: 123456789</p>
+                        <p>Previous Appointment: 1st July 12:47</p>
+                        <p>General Comments: He is a good boy.</p>
+                        <p>Medical Records: Perfectly Fit</p>
+                        <p>Prescription:&nbsp; None</p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-primary" type="button">Ok</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal1-2">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Doctor Assignment</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <div>
+                            <p class="d-inline-block">Department&nbsp;</p>
+                            <div class="dropdown d-inline-block"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-left: 25px;color: rgb(1,1,1);background-color: rgb(255,255,255);">&nbsp;</button>
+                                <div class="dropdown-menu"
+                                    role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="d-inline-block">Date</p><input class="d-inline-block" type="date" style="margin-left: 79px;"></div>
+                        <div>
+                            <p class="d-inline-block">Doctor Assigned</p>
+                            <div class="dropdown d-inline-block"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-left: 15px;color: rgb(0,0,0);background-color: rgb(255,255,255);">&nbsp;</button>
+                                <div class="dropdown-menu"
+                                    role="menu"><a class="dropdown-item" role="presentation" href="#">Dr. Avish Agarwal</a><a class="dropdown-item" role="presentation" href="#">Dr. Paritosh </a><a class="dropdown-item" role="presentation" href="#">Dr. Utkarsh Kere
+                                        
+                                    </a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal2-2">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Doctor Assignment</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <div>
+                            <p class="d-inline-block">Department&nbsp;</p>
+                            <div class="dropdown d-inline-block"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-left: 25px;color: rgb(1,1,1);background-color: rgb(255,255,255);">&nbsp;</button>
+                                <div class="dropdown-menu"
+                                    role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="d-inline-block">Date</p><input class="d-inline-block" type="date" style="margin-left: 79px;"></div>
+                        <div>
+                            <p class="d-inline-block">Doctor Assigned</p>
+                            <div class="dropdown d-inline-block"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-left: 15px;color: rgb(0,0,0);background-color: rgb(255,255,255);">&nbsp;</button>
+                                <div class="dropdown-menu"
+                                    role="menu"><a class="dropdown-item" role="presentation" href="#">Dr. Avish Agarwal</a><a class="dropdown-item" role="presentation" href="#">Dr. Paritosh </a><a class="dropdown-item" role="presentation" href="#">Dr. Utkarsh Kere
+                                        
+                                    </a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal3-2">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Doctor Assignment</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <div>
+                            <p class="d-inline-block">Department&nbsp;</p>
+                            <div class="dropdown d-inline-block"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-left: 25px;color: rgb(1,1,1);background-color: rgb(255,255,255);">&nbsp;</button>
+                                <div class="dropdown-menu"
+                                    role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="d-inline-block">Date</p><input class="d-inline-block" type="date" style="margin-left: 79px;"></div>
+                        <div>
+                            <p class="d-inline-block">Doctor Assigned</p>
+                            <div class="dropdown d-inline-block"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-left: 15px;color: rgb(0,0,0);background-color: rgb(255,255,255);">&nbsp;</button>
+                                <div class="dropdown-menu"
+                                    role="menu"><a class="dropdown-item" role="presentation" href="#">Dr. Avish Agarwal</a><a class="dropdown-item" role="presentation" href="#">Dr. Paritosh </a><a class="dropdown-item" role="presentation" href="#">Dr. Utkarsh Kere
+                                        
+                                    </a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-2" style="margin-top: 25%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 col-sm-6 col-md-6">
+                    <p class="text-left" style="margin-top:5%;margin-bottom:3%;">© 2020 RADY</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <p class="text-right" style="margin-top:5%;margin-bottom:8%%;font-size:1em;"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

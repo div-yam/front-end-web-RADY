@@ -1,0 +1,7 @@
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+}
+
+.navbar.navbar-light.navbar-expand-md.sticky-top.bg-white {
+  box-shadow: 5px 10px 8px #888888;
+}
+
